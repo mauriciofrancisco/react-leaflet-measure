@@ -121,7 +121,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 12px 12px;
-    color: #5e66cc;
+    color: #17c671;
     text-decoration: none
 }
 
@@ -154,7 +154,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 12px 12px;
-    color: #5e66cc;
+    color: #17c671;
     text-decoration: none
 }
 
@@ -187,7 +187,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 12px 12px;
-    color: #5e66cc;
+    color: #17c671;
     text-decoration: none
 }
 
@@ -220,7 +220,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 12px 12px;
-    color: #5e66cc;
+    color: #17c671;
     text-decoration: none
 }
 
@@ -253,7 +253,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-size: 12px 12px;
-    color: #5e66cc;
+    color: #17c671;
     text-decoration: none
 }
 
@@ -271,3 +271,37 @@
     opacity: .5;
     text-decoration: none
 }
+
+/* assets/export.png */
+.leaflet-measure-resultpopup a.exportmarkup {
+    display: inline;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    margin-right: 4px;
+    line-height: 1em;
+    border: 0;
+    text-align: left;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAU0lEQVR4Ae3MAQYAIBBE0fbGAQIEhNCVOlZAVRYZNCSghg+MZ95e1i5DH3K9xCD92B3kRaQChlDSjzdkEbAJARIZglhYoEAQipURIkcYIseY9uoab/klQ4Aht80AAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 12px 12px;
+    color: #17c671;
+    text-decoration: none
+}
+
+.leaflet-measure-resultpopup a.exportmarkup,
+.leaflet-measure-resultpopup a.exportmarkup:hover {
+    background-color: transparent
+}
+
+/* assets/trash_@2X.png */
+.leaflet-retina .leaflet-measure-resultpopup a.exportmarkup {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAU0lEQVR4Ae3MAQYAIBBE0fbGAQIEhNCVOlZAVRYZNCSghg+MZ95e1i5DH3K9xCD92B3kRaQChlDSjzdkEbAJARIZglhYoEAQipURIkcYIseY9uoab/klQ4Aht80AAAAASUVORK5CYII=');
+}
+
+.leaflet-measure-resultpopup a.exportmarkup:hover {
+    opacity: .5;
+    text-decoration: none
+}
+
